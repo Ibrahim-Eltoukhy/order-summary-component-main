@@ -29,6 +29,7 @@ main {
   border-radius: 12px;
   overflow: hidden;
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 .image img {
@@ -70,7 +71,7 @@ main {
   gap: 1rem;
 }
 
-.price-plan h3 {
+.price-plan h2 {
   font-weight: 900;
   font-size: 1.3rem;
   color: hsl(223, 47%, 23%);
@@ -104,6 +105,7 @@ main {
   border-radius: 12px;
   text-decoration: none;
   margin-bottom: 2.2rem;
+  box-shadow: 0px 14px 12px 0px #ada9d96e;
 }
 .cta:hover,
 .cta:active {
