@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  height: 100vh;
+  background-image: url(images/pattern-background-desktop.svg);
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card {
+  width: 36rem;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.image img {
+  width: 100%;
+}
+
+.container {
+  padding: 3.5rem 3.8rem;
+}
+.details {
+  margin-bottom: 1.4rem;
+}
+.details h1 {
+  font-size: 2.2rem;
+  font-weight: 900;
+  margin-bottom: 1.3rem;
+  color: hsl(223, 47%, 23%);
+}
+.details p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.6;
+  color: hsl(224, 23%, 55%);
+}
+
+.price-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsl(225, 100%, 98%);
+  padding: 1.8rem;
+  margin-bottom: 2.2rem;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.price-plan h3 {
+  font-weight: 900;
+  font-size: 1.3rem;
+  color: hsl(223, 47%, 23%);
+}
+
+.price-plan p {
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: hsl(224, 23%, 55%);
+}
+
+.change:link,
+.change:visited {
+  color: hsl(245, 75%, 52%);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.change:hover,
+.change:active {
+  text-decoration: none;
+  color: hsl(245, 66%, 63%);
+}
+.cta:link,
+.cta:visited {
+  display: block;
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 1.3rem;
+  border-radius: 12px;
+  text-decoration: none;
+  margin-bottom: 2.2rem;
+}
+.cta:hover,
+.cta:active {
+  background-color: hsl(245, 66%, 63%);
+}
+
+.cancel:link,
+.cancel:visited {
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 1.2rem;
+  color: hsl(224, 23%, 55%);
+}
+
+.cancel:hover,
+.cancel:active {
+  color: hsl(223, 47%, 23%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
