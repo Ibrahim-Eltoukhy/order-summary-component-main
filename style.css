@@ -59,6 +59,7 @@ main {
   align-items: center;
   justify-content: space-between;
   background-color: hsl(225, 100%, 98%);
+  border-radius: 12px;
   padding: 1.8rem;
   margin-bottom: 2.2rem;
 }
